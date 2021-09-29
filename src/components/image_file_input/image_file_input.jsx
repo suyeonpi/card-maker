@@ -4,6 +4,7 @@ import styles from "./image_file_input.module.css";
 const ImageFileInput = ({ imageUploader, name, onFileChange }) => {
   const [loading, setLoading] = useState(false);
   const inputRef = useRef();
+
   const onButtonClick = (e) => {
     e.preventDefault();
     inputRef.current.click();
