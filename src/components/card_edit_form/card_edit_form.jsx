@@ -67,7 +67,7 @@ const CardEditForm = ({ FileInput, card, updateCard, deleteCard }) => {
         onChange={onChange}
       />
       <textarea
-        className={styles.textares}
+        className={styles.textarea}
         name="message"
         value={message}
         onChange={onChange}
